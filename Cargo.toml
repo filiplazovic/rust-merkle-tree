@@ -1,0 +1,8 @@
+[package]
+name = "rust-merkle-tree"
+version = "0.1.0"
+authors = ["filiplazovic <lazoviccorp@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+blake2-rfc = "0.2.18"
