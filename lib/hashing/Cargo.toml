@@ -1,12 +1,12 @@
 [package]
-name = "rust-merkle-tree"
+name = "hashing"
 version = "0.1.0"
 authors = ["filiplazovic <lazoviccorp@gmail.com>"]
 edition = "2018"
 
 [dependencies]
-hashing = { path = "lib/hashing" }
+blake2-rfc = "0.2.18"
 
 [lib]
-name = "merkle_tree"
-path = "src/lib.rs"
+name = "hashing"
+path = "src/hashing.rs"
